@@ -1,0 +1,35 @@
+.env
+
+# IDE #
+.vscode/
+
+# Node files #
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS generated files #
+.DS_Store
+Thumbs.db
+
+# Logs #
+/logs
+*.log
+*.log*
+nohup.out
+# Dist #
+dist/
+ormconfig.json
+tsconfig.build.json
+# Generated source-code #
+!src/public/**/*
+test/**/*.js.map
+coverage/
+!test/preprocessor.js
+# build/
+bin/
+build/
+
+#data
+ganache_db/*
+!ganache_db/.ignoreme

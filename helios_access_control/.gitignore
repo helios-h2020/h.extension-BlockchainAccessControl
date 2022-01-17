@@ -1,0 +1,26 @@
+# Project exclude paths
+*.iml
+.DS_Store
+.externalNativeBuild
+/local.properties
+/captures
+/.gradle/
+/android/build/
+/accesscontrol/build/
+/buildSrc/.gradle
+/buildSrc/build
+/.idea/
+/build/
+/ios/Pods
+/ios/mPrime.xcworkspace/xcuserdata
+/ios/Podfile.lock
+/ios/.idea
+/builds
+/ios/Build/
+ios/Build/
+ios/mPrime.xcworkspace/xcuserdata
+ios/ios.xcodeproj/xcuserdata
+ios/ios.xcodeproj/project.xcworkspace/xcuserdata
+*.pfx
+cert/release.properties
+backend/build

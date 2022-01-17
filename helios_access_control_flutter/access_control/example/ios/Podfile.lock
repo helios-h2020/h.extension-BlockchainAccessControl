@@ -1,0 +1,22 @@
+PODS:
+  - access_control (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - access_control (from `.symlinks/plugins/access_control/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  access_control:
+    :path: ".symlinks/plugins/access_control/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  access_control: bd88bf96e4c8395414ce5c4e60e42220486dcb12
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.0

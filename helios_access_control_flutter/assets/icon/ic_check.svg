@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_check</title>
+    <defs>
+        <path d="M7.32710633,17 C6.93776614,17 6.56459853,16.8505057 6.28966446,16.5847701 L0.420211267,10.9181547 C-0.14732694,10.3600811 -0.138941152,9.46340436 0.439079292,8.91487297 C1.00991192,8.37385968 1.92456188,8.37385968 2.49509502,8.91487297 L7.27110124,13.5260643 L19.4421752,0.468877649 C19.9845561,-0.112617664 20.9120842,-0.159750303 21.5143636,0.363913552 C22.1166429,0.886999092 22.1654602,1.78280838 21.6230793,2.36430369 L8.41755837,16.5309869 C8.14801516,16.819855 7.76795923,16.9893012 7.36574086,17 L7.32710633,17 Z" id="path-1"></path>
+    </defs>
+    <g id="UX-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-199.000000, -127.000000)">
+            <g id="ic_check" transform="translate(200.000000, 130.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Fill-1" fill="#000000" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

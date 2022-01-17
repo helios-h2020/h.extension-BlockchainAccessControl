@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.5'
+
+target 'iosSample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'helioswallet', :path => '../helioswallet/'
+
+  # Pods for iosSample
+
+  target 'iosSampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'iosSampleUITests' do
+    # Pods for testing
+  end
+
+end

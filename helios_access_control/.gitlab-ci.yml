@@ -1,0 +1,36 @@
+stages:
+  - blockchain
+  - lib
+  - backend
+
+Compile and test smart contracts:
+  stage: blockchain
+  only:
+    - feature/blockchain/smart_contracts
+  script:
+    - cd blockchain
+    - npm install
+    - npm start test
+
+  tags:
+    - mcc
+
+Assemble common lib:
+  stage: lib
+  only:
+    - develop
+    - merge_requests
+  script:
+    - ./gradlew accesscontrol:assemble
+  tags:
+    - mcc
+
+Compile backend:
+  stage: backend
+  only:
+    - develop
+    - merge_requests
+  script:
+    - ./gradlew backend:build
+  tags:
+    - mcc

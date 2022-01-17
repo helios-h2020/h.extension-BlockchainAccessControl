@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_passphrase">Put your passphrase to create a wallet with 1 address</string>
+    <string name="create_wallet">Create wallet</string>
+
+    <string name="enter_pnemonic">Put your pnemonic to import a existent wallet</string>
+    <string name="import_wallet">Import Wallet</string>
+</resources>

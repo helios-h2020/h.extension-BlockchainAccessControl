@@ -1,0 +1,32 @@
+stages:
+  - lint
+  - assemble
+
+Assemble APK:
+  stage: assemble
+  only:
+    - master
+    - develop
+    - merge_requests
+  script:
+    # This command is mandatory for now until I get access to the machine and I could put the var permanently
+    - export PATH="$PATH:/Users/tempossharedaccount/flutter/bin"
+    - flutter build apk
+
+  tags:
+    - mcc
+
+Pass linter:
+  stage: lint
+  only:
+    - master
+    - develop
+    - merge_requests
+  script:
+    # This command is mandatory for now until I get access to the machine and I could put the var permanently
+    - export PATH="$PATH:/Users/tempossharedaccount/flutter/bin"
+    - flutter pub get
+    - dart analyze
+
+  tags:
+    - mcc

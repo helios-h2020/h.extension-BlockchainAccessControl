@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">android</string>
+    <string name="helios_access_control">HELIOS ACCESS CONTROL</string>
+    <string name="id">id:</string>
+    <string name="url">url:</string>
+    <string name="token_conexion">token conexión:</string>
+    <string name="accept_request">Accept Request</string>
+    <string name="create_request">Create Request</string>
+    <string name="reject_request">Reject Request</string>
+    <string name="reset_request">Reset Request</string>
+    <string name="owner">owner:</string>
+    <string name="check_request">Check Request</string>
+    <string-array name="spinnerToken">
+        <item value="0x5d9ae887d5Ae8b3EEf3E04BC2e34788c330bED80">Token1</item>
+        <item value="0x789eD9DEDaE99C2daEE73b6bBaCd91F506f23C01">Token2</item>
+        <item value="0xC9e273C586F1c99A67DD689b7A6E538E4C0D60d5">Token3</item>
+        <item value="0x0B309793B008C5B1D74aE300edE7adaAA1198634">Token4</item>
+        <item value="0x7856fBd155282Ab1CD030D3Fe943a2835C97E674">Token5</item>
+        <item value="0x9f92952f8abFC3F68c22d852978aEC86F2a6463C">Token6</item>
+        <item value="0xC702d6173A4b2945514e9a92B2729c1e48924F24">Token7</item>
+        <item value="0x605e5cF922159812f58D9081859beffC70c77a7C">Token8</item>
+        <item value="0x4BE57B889801B2671b692810A49e0e1D14b62A18">Token9</item>
+        <item value="0x535eb9CEF187df9A35416A9e10CE877DbBE61D05">Token10</item>
+    </string-array>
+</resources>

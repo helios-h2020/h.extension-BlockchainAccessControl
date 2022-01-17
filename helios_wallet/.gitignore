@@ -1,0 +1,39 @@
+.gradle
+.idea
+build
+androidSample/build
+helioswallet/build
+
+# OS X
+iosSample/.DS_Store
+
+# Xcode
+iosSample/build/
+iosSample/DerivedData/
+
+## Various settings
+iosSample/*.pbxuser
+iosSample/!default.pbxuser
+iosSample/*.mode1v3
+iosSample/!default.mode1v3
+iosSample/*.mode2v3
+iosSample/!default.mode2v3
+iosSample/*.perspectivev3
+iosSample/!default.perspectivev3
+iosSample/xcuserdata/
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+
+# CocoaPods / Check Carthage or Swift Package Manager
+iosSample/Pods
+iosSample/Podfile.lock

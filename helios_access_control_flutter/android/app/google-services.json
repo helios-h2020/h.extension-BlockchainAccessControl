@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "498262679426",
+    "firebase_url": "https://heliosac.firebaseio.com",
+    "project_id": "heliosac",
+    "storage_bucket": "heliosac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498262679426:android:297cc9a4639ceb4233799b",
+        "android_client_info": {
+          "package_name": "com.worldline.helios_access_control_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498262679426-nvocqph2phggld4t2k0eg223hn6a3udb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-MYMraJh4Ld2KK64MSfs8zCAX7U779kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498262679426-nvocqph2phggld4t2k0eg223hn6a3udb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintHAC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:autofillHints="ID"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/acceptRequest"
+        android:layout_width="85dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="14dp"
+        android:text="@string/accept_request"
+        app:layout_constraintEnd_toStartOf="@+id/rejectRequest"
+        app:layout_constraintStart_toEndOf="@+id/createRequest"
+        app:layout_constraintTop_toBottomOf="@+id/url" />
+
+    <Button
+        android:id="@+id/createRequest"
+        android:layout_width="85dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/create_request"
+        app:layout_constraintEnd_toStartOf="@+id/acceptRequest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/urlTxt" />
+
+    <Button
+        android:id="@+id/rejectRequest"
+        android:layout_width="85dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="7dp"
+        android:text="@string/reject_request"
+        app:layout_constraintEnd_toStartOf="@+id/resetRequest"
+        app:layout_constraintStart_toEndOf="@+id/acceptRequest"
+        app:layout_constraintTop_toBottomOf="@+id/url" />
+
+    <Button
+        android:id="@+id/resetRequest"
+        android:layout_width="85dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="9dp"
+        android:text="@string/reset_request"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rejectRequest"
+        app:layout_constraintTop_toBottomOf="@+id/url" />
+
+    <Button
+        android:id="@+id/checkRequest"
+        android:layout_width="88dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="230dp"
+        android:text="@string/check_request"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ownerTxt" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/helios_access_control"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <TextView
+        android:id="@+id/tokenConexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/token_conexion"
+        app:layout_constraintBottom_toTopOf="@+id/idText"
+        app:layout_constraintEnd_toStartOf="@+id/spinnerToken"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <Spinner
+        android:id="@+id/spinnerToken"
+        android:layout_width="114dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tokenConexion"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="113dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="35dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/url"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idText"
+        app:layout_constraintTop_toBottomOf="@+id/tokenConexion" />
+
+    <TextView
+        android:id="@+id/idText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/id"
+        app:layout_constraintBottom_toTopOf="@+id/urlTxt"
+        app:layout_constraintEnd_toStartOf="@+id/id"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tokenConexion" />
+
+    <EditText
+        android:id="@+id/url"
+        android:layout_width="151dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/acceptRequest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/urlTxt"
+        app:layout_constraintTop_toBottomOf="@+id/id" />
+
+    <TextView
+        android:id="@+id/urlTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/url"
+        app:layout_constraintBottom_toTopOf="@+id/createRequest"
+        app:layout_constraintEnd_toStartOf="@+id/url"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tokenConexion" />
+
+    <EditText
+        android:id="@+id/owner"
+        android:layout_width="212dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/checkRequest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ownerTxt"
+        app:layout_constraintTop_toBottomOf="@+id/acceptRequest" />
+
+    <TextView
+        android:id="@+id/ownerTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="33dp"
+        android:text="owner:"
+        app:layout_constraintBottom_toTopOf="@+id/checkRequest"
+        app:layout_constraintEnd_toStartOf="@+id/owner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createRequest" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
